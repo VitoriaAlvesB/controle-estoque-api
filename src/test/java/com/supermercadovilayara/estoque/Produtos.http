@@ -1,0 +1,10 @@
+POST http://localhost:8080/tabela/cadastrar/produtos
+Content-Type: application/json
+
+{
+ "nome":"arroz",
+ "categoria":"alimenticio",
+ "descricao" :"saco de arroz de 5kg",
+ "quantidade":5,
+ "preco_unitario": 15.50
+}
